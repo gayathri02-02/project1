@@ -5,7 +5,6 @@ GOCLEAN=$(GOCMD) clean
 GOTEST=$(GOCMD) test ./...
 GOGET=$(GOCMD) get
 BINARY_NAME=ops
-
 all: deps test build
 
 pre-build:
